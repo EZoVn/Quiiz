@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.btn {
+  @apply rounded border border-gray-400 bg-gray-400 p-3 text-start text-lg text-slate-900 transition duration-300 hover:bg-slate-800 hover:text-gray-400
+  disabled:cursor-no-drop;
+}
+.correct {
+  @apply bg-green-400 text-white hover:bg-green-400;
+}
+.incorrect {
+  @apply bg-red-400 text-black hover:bg-red-400;
+}

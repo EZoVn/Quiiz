@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A fun and interactive quiz game." />
+    <link rel="stylesheet" href="./output.css" />
+    <script src="questions.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Quiiz</title>
+  </head>
+  <body>
+    <main class="m-12 w-11/12 max-w-xl rounded-xl bg-slate-700 p-8 text-white">
+      <h1 class="border-b-2 pb-5 text-center text-4xl font-bold">Quiiz</h1>
+      <div id="quiz" class="py-6">
+        <h2
+          id="question"
+          class="ml-2 pb-5 text-2xl font-semibold text-gray-200"
+        >
+          Questions ici
+        </h2>
+        <div id="answerBtns" class="my-2 flex flex-col gap-4 px-2">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+        <button
+          id="nextBtn"
+          class="ml-2 mt-10 hidden rounded border border-gray-400 bg-slate-800 p-2 text-gray-400 transition duration-300 hover:bg-gray-400 hover:text-slate-900"
+        >
+          Next
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
